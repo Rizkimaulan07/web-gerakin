@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Tambahkan URL sitemap setelah domain final tersedia.
+# Sitemap: https://domain-kamu.com/sitemap.xml

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070a08" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="index, follow" />
+
+    <title>Gerakin — Setiap Langkah Berarti | Catat Aktivitas Olahraga</title>
+    <meta
+      name="description"
+      content="Gerakin adalah aplikasi pencatatan aktivitas olahraga untuk merekam rute, durasi, jarak, pace, dan kalori. Dukung 8 olahraga, fitur sosial, target, dan komunitas."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Gerakin" />
+    <meta property="og:title" content="Gerakin — Setiap Langkah Berarti" />
+    <meta
+      property="og:description"
+      content="Rekam rute, durasi, jarak, pace, dan kalori dari lari hingga yoga. Satu aplikasi untuk semua cara kamu bergerak."
+    />
+    <meta property="og:image" content="/og-cover.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Gerakin — aplikasi pencatatan aktivitas olahraga dengan aksen lime di atas latar gelap." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gerakin — Setiap Langkah Berarti" />
+    <meta
+      name="twitter:description"
+      content="Rekam aktivitas, lihat rute, dan tumbuh bersama komunitas. Kenali Gerakin, aplikasi olahraga untuk semua cara bergerak."
+    />
+    <meta name="twitter:image" content="/og-cover.png" />
+    <meta name="twitter:image:alt" content="Pratinjau landing page Gerakin dengan tagline Setiap langkah berarti." />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Gerakin",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Web",
+        "inLanguage": "id",
+        "description": "Aplikasi pencatatan aktivitas olahraga untuk merekam rute, durasi, jarak, pace atau kecepatan, serta kalori. Mendukung lari, sepeda, jalan kaki, hiking, renang, gym, futsal, dan yoga.",
+        "featureList": [
+          "Akun pengguna dengan login email dan sesi aman",
+          "Dashboard Beranda dengan target mingguan, rekor pribadi, dan pencapaian",
+          "Perekaman aktivitas dengan GPS real-time",
+          "Mode demo 10x",
+          "Input aktivitas manual",
+          "Riwayat aktivitas dengan peta rute",
+          "Feed sosial dengan cerita, kudos, dan komentar",
+          "Jelajah rute populer dan papan peringkat mingguan",
+          "Tantangan dan klub komunitas",
+          "Profil dan sinkronisasi akun dengan database PostgreSQL"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apakah Gerakin gratis?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Versi web Gerakin tersedia untuk dicoba langsung. Rincian biaya dan paket belum diumumkan di halaman ini; jika ada pembaruan, informasinya akan ditampilkan melalui kanal resmi Gerakin."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah harus membuat akun?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya. Buat akun dengan email dan kata sandi untuk masuk ke Beranda, menyimpan aktivitas, mengikuti tantangan, dan menyinkronkan profil. Sesi login ditangani dengan cookie HttpOnly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah Gerakin membutuhkan GPS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "GPS dipakai untuk lari, sepeda, jalan kaki, dan hiking agar rute terekam real-time. Tapi kamu tidak selalu membutuhkannya: ada mode demo 10× untuk mencoba alur tanpa GPS, serta input aktivitas manual untuk gym, renang, futsal, yoga, atau sesi tanpa GPS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah Gerakin bisa dipakai untuk gym?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bisa. Catat sesi gym lewat input manual. Gerakin memakai istilah Tempo untuk irama repetisi, jadi fokus pencatatannya sesuai dengan latihanmu."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Di mana data Gerakin disimpan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Aktivitas, kudos, komentar, klub, tantangan, dan profil pengguna disimpan di database PostgreSQL. Data kemudian disinkronkan dengan akun pengguna, sehingga riwayat tetap terhubung."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kapan APK Gerakin tersedia?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "APK masih dalam tahap persiapan. Sementara itu, kamu bisa menggunakan web app untuk mencoba Gerakin. Tombol unduh akan diaktifkan saat APK siap dirilis."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Bisakah mencoba tanpa GPS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tentu. Mode demo 10× mempercepat simulasi aktivitas tanpa GPS, dan input manual tersedia untuk sesi yang tidak memerlukan pelacakan rute."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #070a08; color: #f1f4ed; font-family: sans-serif; text-align: center">
+        <p>Aktifkan JavaScript untuk membuka website Gerakin.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
